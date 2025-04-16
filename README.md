@@ -1,15 +1,19 @@
-# Network Diagnostics Script
+# 🛠️ Network Diagnostics Script
 
-A simple Bash script to check network diagnostics on Linux systems.  
-Useful for system admins or application support roles.
+A simple Bash script to perform basic network diagnostics on Linux systems.
 
-## 🔧 What It Checks
-- Hostname and IP address
-- Ping to google.com
-- DNS resolution
-- Current routing table
+## ✅ Features
 
-## 🚀 How to Run
+- Displays hostname and local IP address
+- Pings a well-known server (google.com)
+- Shows DNS server information
+- Displays the current routing table
+
+## 📂 Files
+
+- `network_check.sh` – Main diagnostic script
+
+## 💻 How to Use
 
 ```bash
 chmod +x network_check.sh
